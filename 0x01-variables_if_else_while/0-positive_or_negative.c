@@ -3,8 +3,8 @@
 #include<stdio.h>
 /**
  *main - Entry point
- * 
- *Retunn: Always 0 
+ *
+ *Retunn: Always 0 (Success)
  */
 int main(void)
 {
