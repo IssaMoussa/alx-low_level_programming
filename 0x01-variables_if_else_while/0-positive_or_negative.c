@@ -1,8 +1,11 @@
 #include<stdlib.h>
 #include<time.h>
 #include<stdio.h>
-
-
+/**
+ *sign of a randomly entered integer
+ *
+ *
+ */
 int main(void)
 { 
 	int n;
