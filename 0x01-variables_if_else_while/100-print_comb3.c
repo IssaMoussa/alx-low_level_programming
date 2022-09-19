@@ -6,7 +6,6 @@
  * main - entry
  *
  * Return: 0
- *
  */
 
 int main(void)
@@ -16,11 +15,11 @@ int main(void)
 
 	for (number = '0'; number < '9'; number++)
 	{
-		for (d = number+1; d <= '9'; d++)
+		for (d = number + 1; d <= '9'; d++)
 		{
 			putchar(number);
 			putchar(d);
-			if (d != '8')
+			if (d == '8')
 			{
 				continue;
 			}
