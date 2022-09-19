@@ -2,7 +2,7 @@
 #include<stdlib.h>
 
 /**
- * main -
+ * main - entry
  *
  * Return: 0
  *
