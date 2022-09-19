@@ -2,7 +2,7 @@
 #include<stdlib.h>
 
 /*
- * main - entry point
+ * main - entry point display alphabet
  *
  * Return: 0
  */
