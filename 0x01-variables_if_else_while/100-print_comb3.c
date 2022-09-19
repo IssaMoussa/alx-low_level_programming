@@ -2,7 +2,6 @@
 #include<stdlib.h>
 
 /**
- *
  * main - entry
  *
  * Return: 0
@@ -19,7 +18,7 @@ int main(void)
 		{
 			putchar(number);
 			putchar(d);
-			if (d == '8')
+			if (number == '8' && d == '9')
 			{
 				continue;
 			}
