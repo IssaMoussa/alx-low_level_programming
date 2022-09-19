@@ -2,9 +2,9 @@
 #include<time.h>
 #include<stdio.h>
 /**
- *sign of a randomly entered integer
- *
- *
+ *main - Entry point
+ * 
+ *Retunn: Always 0 
  */
 int main(void)
 {
