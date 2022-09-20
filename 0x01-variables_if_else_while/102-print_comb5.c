@@ -15,13 +15,13 @@ int main(void)
 	{
 		for (d = n + 1; d <= 98; d++)
 		{
-			putchar((p / 10) + '0');
-			putchar((p % 10) + '0');
+			putchar((n / 10) + '0');
+			putchar((n % 10) + '0');
 			putchar(' ');
-			putchar((q / 10) + '0');
-			putchar((q % 10) + '0');
+			putchar((d / 10) + '0');
+			putchar((d % 10) + '0');
 
-			if (n == 98 && q == 99)
+			if (n == 98 && d == 99)
 				continue;
 
 			putchar(',');
