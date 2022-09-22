@@ -12,9 +12,7 @@ int main(void)
 	char mot[8] = "_putchar";
 	int i;
 
-	for (i = 0; i < 9; i++)
-		putchar(mot[i]);
-	printf("\n");
+	printf("_putchar\n");
 
 	return (0);
 }
