@@ -9,7 +9,11 @@
 
 int main(void)
 {
-	putchar("_putchar");
+	char mot[8] = "_putchar";
+	int i;
+
+	for (i = 0; i < 9; i++)
+		putchar(mot[i]);
 	putchar("\n");
 
 	return (0);
