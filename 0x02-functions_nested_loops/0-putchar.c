@@ -9,9 +9,6 @@
 
 int main(void)
 {
-	char mot[8] = "_putchar";
-	int i;
-
 	printf("_putchar\n");
 
 	return (0);
