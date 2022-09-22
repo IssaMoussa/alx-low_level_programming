@@ -14,7 +14,7 @@ int main(void)
 
 	for (i = 0; i < 9; i++)
 		putchar(mot[i]);
-	putchar("\n");
+	printf("\n");
 
 	return (0);
 }
