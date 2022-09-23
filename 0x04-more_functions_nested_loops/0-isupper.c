@@ -6,7 +6,7 @@
  * Return: 1 if c is upper case 0 otherwise
  */
 
-int _isupper(char c)
+int _isupper(int c)
 {
 	char up_case = 'A';
 	int is_upper = 0;
