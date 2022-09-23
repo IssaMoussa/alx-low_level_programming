@@ -8,7 +8,7 @@
  * Return: a add to b
  */
 
-int add(int a, inb)
+int add(int a, int b)
 {
 	return (a +b);
 }
