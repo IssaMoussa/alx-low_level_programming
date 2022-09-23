@@ -2,18 +2,18 @@
 
 /**
  * _strcat: concatanate two string
- * @src: an input sstring
- * @dest: an input string
+ * @dest: an input sstring
+ * @src: an input string
  * Result: a pointer to the resulting string
  */
 
-char *_strcat(char *src, char *dest)
+char *_strcat(char *dest, char *src)
 {
 	char *tmp = dest;
 	
-	while (dest)
+	while (*dest)
 		dest++;
-	while (src)
+	while (*src)
 		*dest++ = *src++;
 
 	*dest = '\0';
