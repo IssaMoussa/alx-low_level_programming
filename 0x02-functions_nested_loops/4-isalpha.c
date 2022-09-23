@@ -16,7 +16,7 @@ int _isalpha(char c)
 	{
 		for (up = 'A'; up <= 'Z'; up++)
 		{
-			if (c == low or c == up)
+			if (c == low || c == up)
 			{
 				isletter = 1;
 			}
