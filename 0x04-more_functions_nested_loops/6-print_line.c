@@ -3,7 +3,7 @@
 /**
  * print_line - draws straigth line
  * followed by a new line
- * @n: input integer
+ * @n:an input integer
  * Return: nothing
  */
 
