@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_triangle - draw triangle
+ * print_triangle - draw triangle , followed by a new line
  * @n: input number
  * Return: nothing
  */
@@ -21,10 +21,10 @@ void print_triangle(int n)
 				else
 					_putchar('#');
 			}
-			_putchar('\n);
+			_putchar('\n');
 			espace--;
 		}
 	}
 	else
-		_putchar('\n);
+		_putchar('\n');
 }
